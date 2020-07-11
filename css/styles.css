@@ -1,0 +1,39 @@
+* {
+  padding: 1px;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+body {
+  background-color: white;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.main-nav {
+  background-color: black;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  height: 70px;
+  list-style: none;
+}
+.main-nav li {
+  display: block;
+  float: left;
+  margin-left: 2px;
+}
+a {
+  color: azure;
+  text-decoration: none;
+}
+
+.main-nav li a:hover {
+  color: grey;
+}
+
+.main-title {
+  text-align: center;
+}
