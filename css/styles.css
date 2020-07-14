@@ -23,7 +23,7 @@ body {
 .main-nav li {
   display: block;
   float: left;
-  margin-left: 2px;
+  margin-left: 20px;
 }
 a {
   color: azure;
@@ -36,4 +36,27 @@ a {
 
 .main-title {
   text-align: center;
+}
+.image1 {
+  width: 800px;
+  height: 500px;
+}
+
+.image-gif {
+  width: 800px;
+  height: 500px;
+}
+.prototype-image-web {
+  width: 800px;
+  height: 500px;
+}
+
+.prototype-image-mobile {
+  width: 240px;
+  height: 500px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
 }
