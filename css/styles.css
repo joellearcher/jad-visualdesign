@@ -25,9 +25,13 @@ body {
   float: left;
   margin-left: 20px;
 }
+
 a {
   color: azure;
   text-decoration: none;
+}
+.source-link {
+  color: green;
 }
 
 .main-nav li a:hover {
@@ -40,6 +44,28 @@ a {
 .image1 {
   width: 800px;
   height: 500px;
+  margin-bottom: 50px;
+}
+
+.orig-img-1,
+.orig-img-2,
+.orig-img-3 {
+  color: green;
+}
+
+.image2 {
+  width: 500px;
+  height: 375px;
+}
+
+.image6 {
+  width: 175px;
+  height: 43px;
+}
+
+.image-logo {
+  width: 80px;
+  height: 80px;
 }
 
 .image-gif {
@@ -52,11 +78,35 @@ a {
 }
 
 .prototype-image-mobile {
-  width: 240px;
-  height: 500px;
+  width: 365px;
+  height: 802px;
 }
 
 footer {
   text-align: center;
   margin-top: 100px;
+}
+.prototype_text {
+  text-align: center;
+}
+
+.image_text {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.image_section {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.gif-section {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.gif-text {
+  min-width: 50em;
+  max-width: 15em;
+  margin-left: 240px;
 }
